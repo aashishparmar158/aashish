@@ -1,0 +1,511 @@
+
+/* flex container css */
+
+.flex-container{
+    display: flex;
+    align-items:center;
+    align-content:flex-start;
+    flex-direction: column;
+    width: 130px;
+    height: 1000px;
+    background-color: rgb(46, 46, 46);
+    position:fixed;
+    
+   
+    
+    
+
+}
+
+.flexitems{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    align-content:center;
+   background-color: rgb(46, 46, 46);
+}
+.flexitems:hover{
+    background-color: black;
+}
+.flexhome{
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    
+    
+
+}
+.flexhome:hover{
+    background-color: black;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logoimg{
+    margin-top: 0px;
+}
+.logolink{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+   
+}
+.logolink:hover{
+    color: white;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body css */
+
+body{
+    position: relative;
+    background-color: #000000;
+    background-image: url(man_smoke.jpg);
+    background-repeat: no-repeat;
+    background-position-x:60%;
+    background-position-y:280px;
+    background-size: 800px 800px;
+    
+    
+    
+}
+
+
+
+/* heading part css */
+.heading{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 1700px;
+    
+}
+
+#mainheading{
+    font-size: 80px;
+    align-items: center;
+    animation: heading 1.5s;
+}
+@keyframes heading{
+    0%{margin-top: -500px;}
+    100%{margin-top: 0px;}
+}
+#subheading{
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* about section css */
+
+.about{
+    position: absolute;
+    top: 1200px;
+    left: 30%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color:aliceblue;
+    width: 950px;
+    
+
+}
+#paragraphaboutme{
+    font-family: 5px;
+    color: #616161;
+}
+.myname{
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    text-align:left;
+}
+
+.aboutme{
+    text-align: justify;
+}
+
+
+
+
+
+.myskills{
+   margin-top: 30px;
+}
+
+.photographytext{
+    margin-top: 15px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #969494;
+}
+.photographyrow{
+    height: 30px;
+    color: #727272;
+    margin-top:15px;
+}
+.column11{
+    background-color: #727272;
+}
+.column1{
+    background-color: white;
+    color: white;
+}
+
+
+
+
+
+.webdesigntext{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #969494;
+}
+.webdesignrow{
+    height: 30px;
+    color: #727272;
+    margin-top: 15px;
+}
+.column10{
+    background-color: #727272;
+}
+.column2{
+    background-color: white;
+    color: white;
+}
+
+
+
+
+.photoshoptext{
+   margin-top: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #969494;
+}
+.photoshoprow{
+    height: 30px;
+    color: #727272;
+    margin-top: 15px;
+}
+.column7{
+    background-color: #727272;
+}
+.column5{
+    background-color: white;
+    color: white;
+}
+
+
+
+
+
+.emptyrow{
+
+    background-color: black;
+    color: black;
+    height: 30px;
+
+}
+
+
+.attributesrow{
+    width: 950px;
+    height: 100px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    align-content:space-evenly;
+    flex-direction: row;
+    margin-left: -10px;
+    padding-top: 20px;
+}
+
+.attributescolumn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.downloadbutton{
+      margin-top: 80px;
+      padding-left: 0px;
+}
+.buttondownload{
+    border-radius: 0px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainrow{
+    width: 950px;
+    margin-top: 30px;
+    
+  
+}
+
+.main1{
+    width: 462px;
+    opacity: .7;
+
+}
+
+.main1:hover{
+    width: 462px;
+    opacity: 1;
+
+}
+.between{
+    width: 10px;
+}
+.main2{
+    width: 462px;
+    padding-left: 0px;
+    opacity: .7;
+}
+.main2:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+.basic-row{
+    height: 100px;
+    background-color: #969696;
+    text-align: center;
+   
+}
+
+.webdesign-row{
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+}
+
+.photography-row{
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+}
+.storage-row{
+    height: 50px;
+    background-color:white;
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+}
+.mail-row{
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+    
+}
+.dollar-row{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+}
+.button-row{
+    height: 75px;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    border-bottom:1px solid #bebebe;
+    padding-top: 20px;
+}
+
+
+.basic{
+    padding-top: 30px;
+    color: rgb(88, 88, 88);
+    
+}
+.pro{
+    padding-top: 30px;
+    color: rgb(88, 88, 88);
+
+}
+
+.webdesign{
+    padding-top: 8px;
+    color:#272727;
+}
+.photography{
+    padding-top: 8px;
+    color:#272727;
+}
+.storage1{
+    padding-top: 8px;
+    color:#272727;
+}
+.mailsupport{
+    padding-top: 8px;
+    color:#272727;
+}
+.dollar10{
+    padding-top: 8px;
+    color:#272727;
+}
+.signup1{
+    padding-top: 8px;
+    color:#272727;
+}
+
+
+
+
+
+
+.webdesign2{
+    padding-top: 8px;
+    color:#272727;
+}
+.photography2{
+    padding-top: 8px;
+    color:#272727;
+}
+.storage2{
+    padding-top: 8px;
+    color:#272727;
+}
+.endless{
+    padding-top: 8px;
+    color:#272727;
+}
+.dollar25{
+    padding-top: 8px;
+    color:#272727;
+}
+.signup2{
+    padding-top: 8px;
+    color:#272727;
+}
+
+
+.signup{
+    background-color: #cfcece;
+    color: #000000;
+    border-radius: 0px;
+    width: 110px;
+    border: 0px ;
+
+}
+.signup:hover{
+    background-color: #000000;
+    
+}
+.pricerow{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.myskills{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.myname{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.myreputation{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+.mainphotos{
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.photos1{
+    display: inline-block;
+    margin-left: -12px;
+    margin-right: 20px;
+    position: absolute;
+    
+}
+.photos2{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.contactme{
+    position: relative;
+
+}
+.m1{
+    position: absolute;
+}
+
+
+
+
+.buttondownload:hover{
+      background-color: white;
+      color: #000000;
+      opacity: .7;
+}
+
+
+
+
+
+
+.input1{
+    transition: transform .2s;
+}
+
+.input1:hover{
+     transform:scale(1.05);
+}
